@@ -1,0 +1,31 @@
+{
+    "app": {
+        "name": "fstorage",
+        "entry": "\\tts\\fstorage\\controller\\Server",
+        "package": "fstorage"
+    },
+    "db": {
+        "host": null,
+        "port": 5433,
+        "dbname": "dbname",
+        "user": "user",
+        "password": "pass"
+    },
+    "debug": 7,
+    "installed": false,
+    "metadata":{
+        "author":"dpolukarov",
+        "version":"v0.0.1"
+    },
+    "path": {
+        "conf": "/<path to conf>/conf/",
+        "lib":  "/<path to lib>/lib/",
+        "log":  "/<path to logs>/logs/",
+        "src":  ["/<path to src>/src/"]
+    },
+    "bcrypt": {
+        "@description": "Use bcrypt instead of MD5 for password hashing",
+        "enable": true,
+        "rounds": 12
+    }
+}
